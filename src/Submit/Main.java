@@ -17,7 +17,9 @@ public class Main {
             }
             countWords.countWord(enteredWord);
         }
-        System.out.println("total character of the word entered is " + countWords.totalChar);
+        System.out.println("Total character of the word entered is " + countWords.totalChar);
         System.out.println("Total number of lines = " + countWords.totalLn);
+        System.out.println("Total number of word is " + countWords.totalNoOfWords);
+        System.out.println("The longest word is " + countWords.longestWord);
     }
 }
