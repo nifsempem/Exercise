@@ -6,19 +6,18 @@ public class Text {
     int totalNoOfWords = 0;
     String longestWord = "";
 
-    public void countWord ( String word) {
-        totalChar = word.length();
+    public void countWord(String word) {
+        totalChar += word.length();
         totalLn++;
+
         String[] wordsInline = word.split(" ");
         totalNoOfWords += wordsInline.length;
 
-        for (String wordsNumber : wordsInline ) {
-            if (word.length() > longestWord.length()) {
+        for (String wordsNumber : wordsInline)
+            if (wordsNumber.length() > longestWord.length())
                 longestWord = wordsNumber;
-                break;
-            }
+
     }
-
 }
 
 
@@ -32,6 +31,6 @@ public class Text {
 
 
 
-}
+
 
 
