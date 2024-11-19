@@ -16,21 +16,5 @@ public class Text {
         for (String wordsNumber : wordsInline)
             if (wordsNumber.length() > longestWord.length())
                 longestWord = wordsNumber;
-
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

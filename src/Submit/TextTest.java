@@ -59,7 +59,3 @@ class TextTest {
         assertEquals("Programming", text.longestWord, "Longest word should be 'Programming'.");
     }
 }
-
-
-
-
